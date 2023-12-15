@@ -1,0 +1,80 @@
+/*Cambiar fuente a la de la imágen y cambiar el tipo de flecha*/
+* {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+
+html {
+    padding: 0
+  }
+
+h1, .dropdown, .disabled {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(33,37,41,255);
+}
+
+.home {
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.link {
+    color: rgba(154, 155, 157, 255);
+}
+
+select {
+    border: 0;
+}
+
+#dropdown {
+    color: rgba(152, 156, 157,255);
+    background-color: rgba(33,37,41,255);
+}
+
+.disabled{
+    color: rgba(255, 255, 255, 0.2);
+    padding-right: 30px;
+    padding-left: 5px;
+}
+
+#search {
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(25,135,84,255);
+    border: rgba(25,135,84,255) 1px solid;
+    border-radius: 5px;
+    padding: 7px 10px 7px 10px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+

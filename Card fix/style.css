@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.encabezado{
+    padding: 10px;
+}
+
+article{
+    border: 1px gray solid;
+    margin: 1px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+section{
+    border-bottom: 1px gray solid;
+}
+
+.imagen{
+    height: 260px;
+}
+ul li{
+    border-bottom: 1px gray solid;
+    padding: 10px;
+}
+
+.correccion{
+    border: none;
+}
+
+.footer{
+    border-top: 0;
+    padding: 10px;
+    border: none;
+}
