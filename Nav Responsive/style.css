@@ -78,7 +78,7 @@ button:hover {
 }
 
 @media (min-width:769px){
-    h1 .bars {
+    h1.bars {
         display: none;
         color: white;
     }
